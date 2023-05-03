@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.widget {
+    min-width: 500px;
+    padding: 15px;
+}
+
+.widget__cards {
+    margin-bottom: 20px;
+}
+
+.widget__card {
+    width: 50px;
+    height: 32px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.widget__card:nth-child(n+2) {
+    margin-left: 3px;
+}
+
+.widget-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.widget-form__input {
+    min-width: 300px;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.widget-form__input::placeholder {
+    font-size: 20px;
+}
+
+.widget-form__button {
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cdisabled {
+    background-position: 0 -25px;
+    opacity: .3;
+}
