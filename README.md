@@ -1,6 +1,4 @@
-# Webpack5
-
 [Руководство по настройке Webpack](https://webpack.js.org/guides/)
 [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
-![CI](https://github.com/Pro-Bloxa/netology-env/actions/workflows/web.yml/badge.svg)
+Github Pages: https://pro-bloxa.github.io/ahj-testing/
