@@ -25,6 +25,7 @@ export default class ChooseCard {
       this.text.textContent = "";
       const result = checkCard(this.input.value);
       if (result) {
+        this.removeDisabled();
         this.showCard(result);
       } else {
         this.removeDisabled();
